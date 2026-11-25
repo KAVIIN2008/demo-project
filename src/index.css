@@ -1,0 +1,44 @@
+:root {
+  color: #1d2b24;
+  background: #fbfbf7;
+  font-family: 'Segoe UI', Inter, sans-serif;
+  font-optical-sizing: auto;
+  font-synthesis: none;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-width: 320px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+::selection {
+  background: #d7f279;
+  color: #1d2b24;
+}
+
+:focus-visible {
+  outline: 3px solid #88a94b;
+  outline-offset: 4px;
+}
